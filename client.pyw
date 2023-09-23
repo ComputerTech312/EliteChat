@@ -25,7 +25,7 @@ class ServerDetailsDialog(QDialog):
         layout = QFormLayout()
 
         self.server_input = QLineEdit("irc.rizon.net")
-        self.channel_input = QLineEdit("#ct")
+        self.channel_input = QLineEdit("#test")
         self.nick_input = QLineEdit("techchat")
 
         layout.addRow('Server:', self.server_input)
